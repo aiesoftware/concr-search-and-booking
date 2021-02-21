@@ -1,0 +1,34 @@
+{
+  "name": "concr/search-and-booking",
+  "description": "Search and Booking domain",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alex Eves",
+      "email": "alex.eves@aiesoftware.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/aiesoftware/concr-base"
+    }
+  ],
+  "require": {
+    "concr/concr-base": "^0.0",
+    "ramsey/collection": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Concr\\SearchAndBooking\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Concr\\SearchAndBooking\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
